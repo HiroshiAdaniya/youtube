@@ -1,0 +1,96 @@
+.red,
+.green {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+  border-radius: 150px;
+}
+.rating {
+  display: inline-block;
+  vertical-align: top;
+
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(184, 184, 184);
+
+  width: 270px;
+  height: 90px;
+  padding-left: 15px;
+}
+.Youtube-install {
+  background-color: rgba(0, 0, 0, 0.95);
+  display: inline-block;
+  width: 350px;
+}
+.Install {
+  color: white;
+  font-family: "Robotto", sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  
+  padding-left: 17px;
+  margin-bottom: 0px;
+}
+.description {
+  color: rgba(255, 255, 255, 0.432);
+  font-family: "Robotto", sans-serif;
+  font-size: 13px;
+
+  padding-left: 17px;
+  padding-right: 4px;
+  padding-bottom: 7px;
+  margin-top: 10px;
+  margin-right: 8px;
+  
+}
+
+div {
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.galaxy-1 {
+  display: inline-block;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.705);
+}
+div .galaxy-1 img {
+  width: 170px;
+  height: 190px;
+
+  object-fit: cover;
+}
+.name
+{
+  font-family: "Robotto", sans-serif;
+  font-weight: bold;
+
+  padding-left: 6px;
+  margin-bottom: 0px;
+}
+.distance {
+  font-family: "Robotto", sans-serif;
+  font-size: 13px;
+  color: rgb(90, 90, 90);
+
+  margin-top: 4px;
+  padding-left: 6px;
+}
+button {
+  background-color: rgb(35, 107, 201);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  
+  margin-left: 6px;
+  margin-bottom: 7px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
+}

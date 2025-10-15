@@ -1,0 +1,138 @@
+
+img {
+  margin-right: 50px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 50px;
+}
+/* start of image styling */
+.galaxy {
+  width: 250px;
+  object-position: center;
+  border-radius: 15px;
+}
+.galaxy-1 {
+  width: 200px;
+  height: 200px;
+  object-position: center;
+}
+.galaxy-2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+.profile-picture {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: middle;
+  margin-right: 5px;
+  border-radius: 50px;
+}
+/* End of image styling*/
+/*Start of input styling*/
+.search-box {
+  border-color: rgba(180, 180, 180, 0.6);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  font-weight: 500px;
+
+  padding-left: 14px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  padding-right: 1px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+.google-search {
+  border: none;
+  box-shadow: 0px 1px 8px rgba(180, 180, 180, 0.9);
+  border-radius: 20px;
+
+  font-family: "Robotto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  /*color: rgba(180, 180, 180, 0.3);*/
+
+  padding-left: 16px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 200px;
+}
+
+.linkedin-signup {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 250px;
+  padding-left: 5px;
+  
+  border-radius: 5px;
+  border-width: 2x;
+  border-style: solid;
+  border-color: rgba(180, 180, 180, 0.6);
+}
+.status {
+  border-style: none;
+  font-size: 19px;
+  vertical-align: middle;
+  padding-right: 2px;
+}
+/*End of input styling*/
+/*start of button styling */
+.agree-join {
+  background-color: rgb(0, 115, 177);
+  color: white;
+  font-family: "Robotto", sans-serif;
+  font-size: 21px;
+  
+  border-style: none;
+  border-radius: 30px;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.tweet {
+  color: white;
+  background-color: rgb(42, 124, 179);
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 18px;
+
+  border-style: none;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 25px;
+
+  vertical-align: middle;
+}
+
+.tweet-status {
+  display: inline-block;
+
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 25px;
+}
+/*end of button styling*/

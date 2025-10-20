@@ -1,60 +1,57 @@
-.video,
-.profile-picture,
-.video-description {
-  display: inline-block;
-}
 .search-bar {
   display: block;
 }
-/*Main Div containing; profile picture and video details*/
-.video {
-  width: 300px;
-  vertical-align: top;
-  margin-right: 10px;
+
+/*a container for all videos on the page*/
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
 }
 
-/*Div containing the main video image*/
-.video-preview {
+
+/*class for the thumbnail image (this is not the div but the image inside of the div*/
+.video-thumbnail {
   width: 100%;
 }
 
-/*left aligned Div with Authors profile picture*/
-.author-picture {
-  width: 100%;
-  border-radius: 25px;
-  
+/*(CSS grid display) the authors profile picture and video info*/
+.grid-display {
   margin-top: 10px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+
 }
+
+/*class for the profile picture image */
 .profile-picture {
-  width: 35px;
-  vertical-align: top;
-
+  width: 40px;
+  border-radius: 50px;
 }
 
-/*right aligned Div with title, authors name and views
-div name: video-description*/
-.video-description {
-  width: 75%;
-  padding-left: 10px;
-}
-
-p {
+/*Text on the page*/
+.video-title,
+.author-name,
+.views {
   font-family: "Roboto";
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 .video-title {
-  font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 600;
   margin-bottom: 12px;
-  line-height: 20px;
-  margin-top: 10px;
+  line-height: 21px;
+
 }
-.author,
+.author-name,
 .views {
   font-size: 12px;
-  color: rgb(96, 96, 96);
+  color: gray;
 }
-.author {
-  margin-bottom: 4px;
+
+.author-name {
+  margin-bottom: 10px;
 }

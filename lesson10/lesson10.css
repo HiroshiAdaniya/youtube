@@ -1,77 +1,80 @@
-.Pet {
-  display: inline-block;
-  width: 250px;
-
-  box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.7);
-
-  margin-right: 15px;
-  margin-bottom: 15px;
+/*Main grid*/
+.main-grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
 }
-.cat {
+/*a column in the main div*/
+.pet-friend {
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+/*The main image in the div*/
+.pet {
   width: 100%;
-  height: 260px;
+  height: 215px;
+
   object-fit: cover;
 }
 
-p {
-  font-family: "Roboto";
-  margin-top: 0px;
-  margin-bottom: 0px;
+/*sub-div containing the rest of the elements*/
+.sub-div {
+ padding-left: 7px;
+ padding-bottom: 8px;
 }
+/*name of the pet*/
 .name {
-  font-size: 22px;
+  font-family: "Roboto";
+  font-size: 16px;
   font-weight: bold;
 
-  padding-left: 10px;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  margin-top: 5px;
+  margin-bottom: 4px;
 }
 
-.mutual-friend-image {
-  display: inline-block;
-  width: 35px;
-
-  padding-left: 10px;
+/*The grid containing the mutual friends detail*/
+.sub-grid {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  
+  column-gap: 6px;
+  align-items: center;
 }
-.dog2 {
-  width: 35px;
-  height: 35px;
+
+/*image class of the mutual friend*/
+.dog {
+  width: 100%;
+  height: 27px;
 
   object-fit: cover;
-  border-radius: 20px;
-  
+  border-radius: 100px;
+}
+/*text with mutual friend numbers*/
+.text {
+  font-family: "roboto";
+  font-size: 14px;
+
+  color: grey;
+
+  margin-top: 5px;
 }
 
-.mutual-friends {
-  display: inline-block;
-  vertical-align: top;
-}
-.number-of-mutual-friends {
-  padding-top: 9px;
-  padding-left: 4px;
-
-  color: rgb(96, 96, 96);
-  font-size: 18px;
-
-  font-weight: 450;
-}
-
-.add-button {
+/*button to add friend*/
+.add {
   display: block;
 
-  background-color: rgb(48, 98, 204);
   color: white;
-  font-size: 19px;
+  font-family: "Roboto";
+  font-size: 13px;
 
+  background-color: rgb(29, 114, 241);
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
 
-  margin-left: 10px;
-  margin-top: 7px;
-  margin-bottom: 13px;
-
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 18px;
-  padding-right: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  
+  margin-top: 5px;
 }

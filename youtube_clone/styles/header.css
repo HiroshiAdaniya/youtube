@@ -1,0 +1,28 @@
+/*Search bar input*/
+.header {
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+}
+
+.left-section {
+  background-color: aqua;
+  width: 150px;
+}
+.middle-section {
+  background-color: blueviolet;
+  flex: 1;
+
+  max-width: 500px;
+
+  margin-left: 70px;
+  margin-right: 35px;
+}
+.right-section {
+  background-color: bisque;
+  width: 200px;
+}

@@ -1,0 +1,18 @@
+.flex-box-2 {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 10px;
+}
+.flex-2-0 {
+  background-color: hotpink;
+  width: 50px;
+}
+.flex-2-1 {
+  background-color: greenyellow;
+  flex: 1;
+}
+.flex-2-2 {
+  background-color: plum;
+  width: 75px;
+}

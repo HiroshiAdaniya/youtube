@@ -1,0 +1,42 @@
+
+/* /*Main div where all nested divs are contained8 */
+.alerts {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 450;
+
+  margin-top: 30px;
+
+  width: 350px;
+  border: solid;
+  border-color: rgba(167, 167, 167, 0.5);
+  border-width: 2px;
+  border-radius: 5px;
+
+  padding-left: 7px;
+  padding-right: 10px;
+}
+
+/*top section*/
+.notify-1 {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+ 
+}
+.notify-1-2 {
+  background-color: yellowgreen;
+  color: white;
+
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+  border-radius: 17px;
+}

@@ -1,0 +1,43 @@
+.main-flexbox {
+  display: flex;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.item1 {
+  background-color: violet;
+  color: white;
+  width: 100px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.item1-1 {
+  background-color: black;
+}
+.item2 {
+  background-color: rebeccapurple;
+  width: 200px;
+}
+
+.left-section {
+  background-color: palevioletred;
+  width: 100px;
+}
+
+.right-section {
+  background-color: pink;
+  width: 200px;
+
+}
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.row {
+  color: white;
+  background-color: black;
+}
